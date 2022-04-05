@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 body{
     background-color: #e3e3e3;
 }
 
+=======
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
 body, p, h1, h2{
     margin:0;
     /* pirmas: roboto (sriftas), antras sriftas (jei pirmo neuzkrautu) */
@@ -12,11 +15,14 @@ a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 a, button {
     transition: 500ms;
     cursor: pointer;
 }
 
+=======
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
 .black-header{
     display:flex;
     justify-content: space-between;
@@ -33,6 +39,10 @@ font-size: 13px;
 
 .black-header a:hover{
     color:white;
+<<<<<<< HEAD
+=======
+    transition:500ms;
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
 }
 
 .white-header {
@@ -40,6 +50,7 @@ font-size: 13px;
     justify-content: space-between;
     align-items: center;
     padding: 14px;
+<<<<<<< HEAD
     background-color: white;
 }
 
@@ -48,12 +59,17 @@ font-size: 13px;
 }
 
 
+=======
+}
+
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
 .customer-side{
     display: flex;
     align-items: center;
 }
 
 .white-header a {
+<<<<<<< HEAD
     color: #616161;
     margin: 0 12px;
     font-size: 17px;
@@ -97,3 +113,8 @@ background-color: #f87676;
     padding-bottom: 16px;
 }
 
+=======
+    margin: 0 12px;
+
+}
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
