@@ -15,6 +15,13 @@ a{
     padding: 10px 16px;
 }
 
+button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
 .black-header a {
 color: #ddd9d9;
 margin: 0 12px;
@@ -34,6 +41,20 @@ font-size: 13px;
     padding: 14px;
 }
 
+
+
+.news {
+
+
+}
+
+
+.news h2 {
+    text-align: center;
+    font-weight: 300;
+    border-bottom: 2px solid ;
+}
+
 .customer-side{
     display: flex;
     align-items: center;
@@ -41,5 +62,44 @@ font-size: 13px;
 
 .white-header a {
     margin: 0 12px;
+}
 
+@media screen and (max-width: 768px) {
+    
+    .black-header {
+        justify-content: center;
+           }
+
+    .black-header a {
+        font-size: 15px;
+    }     
+
+    .black-header .info-side {
+        display: none;
+    }
+    .white-header {
+        flex-direction: column;
+    }
+
+    .white-header .customer-side {
+        margin-bottom: 16px;
+    }
+
+    .white-header button {
+        padding: 16px 20px;
+        font-size: 18px;
+    }
+
+    .hero {
+        height: 35vh;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+      width: 100%;
+      margin: 8px 0;  
+    }
 }
