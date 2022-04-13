@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #e3e3e3;
   }
@@ -7,11 +8,24 @@ body {
   h1,
   h2 {
     margin: 0;
+=======
+<<<<<<< HEAD
+body{
+    background-color: #e3e3e3;
+}
+
+=======
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
+body, p, h1, h2{
+    margin:0;
+    /* pirmas: roboto (sriftas), antras sriftas (jei pirmo neuzkrautu) */
+>>>>>>> b26f0fbd53f04b9fddb1ee95b1b941bc2c07ace5
     font-family: "Roboto", sans-serif;
   }
   
   a {
     text-decoration: none;
+<<<<<<< HEAD
   }
   
   a,
@@ -39,10 +53,46 @@ body {
   }
   
   .white-header {
+=======
+}
+
+<<<<<<< HEAD
+a, button {
+    transition: 500ms;
+    cursor: pointer;
+}
+
+=======
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
+.black-header{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 16px;
+}
+
+.black-header a {
+color: #ddd9d9;
+margin: 0 12px;
+font-weight: 300;
+font-size: 13px;
+}
+
+.black-header a:hover{
+    color:white;
+<<<<<<< HEAD
+=======
+    transition:500ms;
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
+}
+
+.white-header {
+>>>>>>> b26f0fbd53f04b9fddb1ee95b1b941bc2c07ace5
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px;
+<<<<<<< HEAD
     background-color: white;
   }
   
@@ -158,3 +208,73 @@ body {
       margin: 8px 0;
     }
   }
+=======
+<<<<<<< HEAD
+    background-color: white;
+}
+
+.logo-container {
+    size: 15%;
+}
+
+
+=======
+}
+
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
+.customer-side{
+    display: flex;
+    align-items: center;
+}
+
+.white-header a {
+<<<<<<< HEAD
+    color: #616161;
+    margin: 0 12px;
+    font-size: 17px;
+}
+
+.white-header a:hover {
+    color: #909090;
+}
+
+
+.white-header button{
+    background-color: #f53c3c;
+    color:white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.white-header button:hover {
+background-color: #f87676;
+}
+
+.hero{
+    height: 60vh;
+    background-image: url("./city2.webp");
+    background-size: cover;
+}
+
+.news{
+    padding: 32px;
+    background-color: white;
+    margin: -16px 32px 0px 32px;
+}
+
+.news h2{
+    text-align: center;
+    font-weight: 300;
+    border-bottom: 2px solid rgb(226, 226, 60);
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+=======
+    margin: 0 12px;
+
+}
+>>>>>>> a0656624fe291d85a1d71ee203f178c1fb8641cd
+>>>>>>> b26f0fbd53f04b9fddb1ee95b1b941bc2c07ace5
