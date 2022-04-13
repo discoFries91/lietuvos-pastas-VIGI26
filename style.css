@@ -1,105 +1,160 @@
-body, p, h1, h2{
-    margin:0;
-    /* pirmas: roboto (sriftas), antras sriftas (jei pirmo neuzkrautu) */
+body {
+    background-color: #e3e3e3;
+  }
+  
+  body,
+  p,
+  h1,
+  h2 {
+    margin: 0;
     font-family: "Roboto", sans-serif;
-}
-
-a{
+  }
+  
+  a {
     text-decoration: none;
-}
-
-.black-header{
-    display:flex;
+  }
+  
+  a,
+  button {
+    transition: 300ms;
+    cursor: pointer;
+  }
+  
+  .black-header {
+    display: flex;
     justify-content: space-between;
     background-color: black;
     padding: 10px 16px;
-}
-
-button {
-    background-color: red;
+  }
+  
+  .black-header a {
+    color: #ddd9d9;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0 12px;
+  }
+  
+  .black-header a:hover {
     color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-}
-
-.black-header a {
-color: #ddd9d9;
-margin: 0 12px;
-font-weight: 300;
-font-size: 13px;
-}
-
-.black-header a:hover{
-    color:white;
-    transition:500ms;
-}
-
-.white-header {
+  }
+  
+  .white-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px;
-}
-
-
-
-.news {
-
-
-}
-
-
-.news h2 {
-    text-align: center;
-    font-weight: 300;
-    border-bottom: 2px solid ;
-}
-
-.customer-side{
+    background-color: white;
+  }
+  
+  .customer-side {
     display: flex;
     align-items: center;
-}
-
-.white-header a {
+  }
+  
+  .white-header a {
+    color: #616161;
+    font-size: 17px;
     margin: 0 12px;
-}
-
-@media screen and (max-width: 768px) {
-    
+  }
+  
+  .white-header a:hover {
+    color: #909090;
+  }
+  
+  .white-header button {
+    background-color: #f53c3c;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .white-header button:hover {
+    background-color: #f87676;
+  }
+  
+  .hero {
+    height: 70vh;
+    background-image: url("./city.webp");
+    background-size: cover;
+  }
+  
+  .news {
+    padding: 32px;
+    background-color: white;
+    margin: -24px 32px 0 32px;
+  }
+  
+  .news h2 {
+    text-align: center;
+    font-weight: 300;
+    border-bottom: 2px solid rgb(235, 217, 60);
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 48%;
+    margin: 16px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding-bottom: 16px;
+  }
+  
+  .card .card-image img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card .card-text,
+  .card a {
+    padding: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
     .black-header {
-        justify-content: center;
-           }
-
+      justify-content: center;
+    }
+  
     .black-header a {
-        font-size: 15px;
-    }     
-
+      font-size: 15px;
+    }
+  
     .black-header .info-side {
-        display: none;
+      display: none;
     }
+  
     .white-header {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .white-header .customer-side {
-        margin-bottom: 16px;
+      margin-bottom: 16px;
     }
-
+  
     .white-header button {
-        padding: 16px 20px;
-        font-size: 18px;
+      padding: 16px 24px;
+      font-size: 18px;
     }
-
+  
     .hero {
-        height: 35vh;
+      height: 35vh;
     }
-
+  
     .cards {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .card {
       width: 100%;
-      margin: 8px 0;  
+      margin: 8px 0;
     }
-}
+  }
